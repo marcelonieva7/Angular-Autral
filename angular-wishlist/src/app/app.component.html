@@ -1,3 +1,19 @@
-<div class="container-fluid content">
-  <app-lista-destinos class="p-3"></app-lista-destinos>
+<div class="container content">
+  <div class="page-header">
+    <div class="container">
+      <h1>Ruteo Simple</h1>
+      <div class="navLinks">
+        <a [routerLink]="['/home']">Home</a>
+        <a [routerLink]="['/destino']">Destino</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <h1>
+      Titulo
+    </h1>
+  </div>
+
+  <router-outlet></router-outlet>
 </div>
